@@ -7,7 +7,7 @@ This project includes an automated setup script to configure the necessary envir
 ### Windows
 To set up the project on Windows, open a terminal (Command Prompt or PowerShell) in the project directory and run:
 ```sh
-setup_env_windows.bat
+.\setup_env_windows.bat
 ```
 This script will:
 - Create a Python virtual environment.
@@ -59,7 +59,7 @@ All dependencies are automatically installed by the setup script and listed in `
 
 ## Usage
 After running the setup script:
-1. Activate the virtual environment:
+1. Activate the virtual environment (If it hasn't been activated automatically, either kill the current one and open another.):
    - Windows:
      ```sh
      venv\Scripts\activate
