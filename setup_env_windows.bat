@@ -65,6 +65,7 @@ echo PROJECT STRUCTURE CREATED SUCCESSFULLY!
 
 echo ADDING FILES TO GIT...
 git add .
+git rm --cached setup_env_windows.bat setup_env_linux.sh setup_env_macos.sh
 if %errorlevel% neq 0 (
     echo ERROR WHILE ADDING FILES TO GIT!
     exit /b %errorlevel%
